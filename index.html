@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+	<title>ordenar</title>
+	
+
+</head>
+<body>
+	<div class="interfaz">
+		
+		<h1>Ordenar Numeros</h1>
+		
+		<input type="text"  class="a" id="guarda" onkeypress="return solonumeros(event)"><br><br>
+		<input type="submit" class="btn" onclick="agrega()" value="agregar">
+		<input type="submit" class="btn" onclick="ordena()" value="ordenar">
+		<input type="submit" class="btn" onclick="muestra()" value="mostrar">
+		<input type="submit" class="btn" onclick="reset()" value="borrar" title="limpiar numeros"><br>
+		
+		 <i class="q" title="agregar>ordenar">Inicio</i>
+         <i class="flecha fas fa-angle-double-right"></i>
+         <i class="q" title="mostrar>borrar">Final</i> 
+		
+		 
+
+      
+
+	</div>
+	<div class="final">
+		Copyright ©2018   Todos los derechos reservados.
+	</div>
+	<script src="javascript.js"></script>
+
+</body>
+</html>
